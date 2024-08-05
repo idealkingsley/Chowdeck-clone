@@ -1,0 +1,476 @@
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1340px;
+    }
+}
+body{
+    height: 200vh;
+}
+header{
+    padding-bottom: 10px;
+    border-bottom: 1px dashed rgb(221, 217, 217);
+    position: fixed;
+    min-width: 100%;
+    background-color: white;
+    z-index: 2000;
+}
+
+.logo{
+    border-radius: 5px;
+}
+.input{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.map-icon{
+}
+.mod-inp input{
+    width: 100%;
+    background-color: #F2F5F4;
+    height: 100%;
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+    position: relative;
+}
+.mod-inp img{
+    position: absolute;
+    top: 29px;
+    left: 15px;
+}
+.search-row{
+    padding-left:600px;
+    position: relative;
+}
+.searchbar{
+    width: 80%;
+    background-color: #F2F5F4;
+    height: 80%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 35px;
+    font-size: small;
+}
+.search-icon{
+    position: absolute;
+    right: 492px;
+    font-size: small;
+}
+.cart{
+    margin-left: 20px;
+    background-color: #0C513F;
+    border-radius: 50px;
+    color: white;
+    height: 45px;
+    width: 45px;
+    padding: 10px 13px;
+}
+.person{
+    margin-left: 20px;
+    background-color: #0C513F;
+    border-radius: 50px;
+    color: white;
+    height: 45px;
+    width: 45px;
+    padding: 10px 13px;
+}
+.nav-icons{
+    margin-left: 120px;
+    gap: 8px;
+}
+.person-mobile{
+    background-color: #0C513F;
+    border-radius: 50px;
+    height: 30px;
+    color: white;
+    width: 30px;
+    padding-left: 6px;
+    padding-top: 2px;
+}
+.search-mobile{
+    width: 95%;
+    padding: 10px 25px;
+    background-color: #F2F5F4;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    border-radius: 5px;
+}
+main {
+    padding-top: 100px;
+}
+.restaurants{   
+    font-size: small;
+}
+.food-banner{
+}
+
+.cart-box {
+    border-left: 1px solid #eeeff4;
+    overflow-y: scroll;
+    height: 150vh;
+    position: sticky;
+    background-color: white;
+    right: 10px;
+    top: 80px;
+}
+.hot{
+    display: flex;
+    justify-content: space-between;
+    width: 475px;
+}
+.product-name{
+    font-size: 25px;
+    font-weight: 450;
+}
+.product-rating{
+    font-size:  18px;
+}
+.product-rating-no{
+    font-size: 15px;
+    font-weight: 100;
+}
+.buttons{
+    border: 1px solid green;
+    border-radius: 10px;
+    background-color: #E6F7F1;
+}
+.opening-time{
+    font-weight: 450;
+}
+@media (min-width: 1200px){
+    .order{
+        padding-left:508.2px;
+        color: green;
+    }
+}
+.menu{
+    overflow-x: scroll;
+    display: flex;
+}
+.menu ul{
+    list-style-type: none;
+    gap: 50px;
+    font-size: 13px;
+    font-weight: 200;
+
+}
+.all{
+   background-color: #E6F7F1;
+    font-weight: 300;
+    width: 50px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+}
+@media (min-width: 1200px){
+    .menu ul{
+        gap: 35px;
+        border-bottom: 1px solid #ccc;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+}
+.menu::-webkit-scrollbar{
+    display: none;
+} 
+.food-details{
+    padding-left: 10px;
+}
+.food-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 0%;
+    margin: 0%;
+    width: 92%;
+}
+.food-image{
+    width: 140px; 
+    height: 140px; 
+}
+.food-name{
+    font-size: 15px;
+    font-weight: 400;
+}
+.subscript{
+    font-size: 12px;
+}
+.price{
+    font-size: 18px;
+    padding-top: 40px;
+}
+@media (min-width: 1200px){
+    .food-details{
+        padding-left: 10px;
+        padding-bottom: 5px;
+    }
+}
+@media (min-width: 1200px){.food-items{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 0%;
+    margin: 0%;
+    box-shadow: 1px 1px 1px 1px #ebe9e9; 
+    width: 44%;
+    margin-left: 10px; 
+    margin-right: 80px;
+    margin-top: 20px;
+}
+}
+@media (min-width: 1200px){
+    .food-name{
+    font-size: 20px;
+}
+}
+@media(min-width: 1200px){.subscript{
+    font-weight: 100; 
+    font-size: 15px;
+}
+}
+@media(min-width: 1200px){.price{
+    padding-top:40px;
+}
+}
+.food-details2{
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 1px 1px #ebe9e9; 
+    margin-top: 10px;
+    padding: auto;
+    margin: auto;
+    border-radius: 10px;
+}
+.food-details-row{
+    padding-left:10px ;
+}
+.food-image2{
+    width: 140px;
+    height: 140px;
+    border-radius: 10px;
+}
+.subscript2{
+    font-size:16px ;
+}
+.food-name2{
+    font-weight: 450;
+}
+.price2{
+    padding-top: 38px;
+}
+#cart{
+    font-size: 14px;
+    margin-top: 15px;
+    border-bottom: 1px solid #e6dfdf;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+
+}
+#cart p{
+    color: green;
+    font-weight: 495;
+    padding-top: 10px;
+}
+#cart button{
+    padding: 5px 10px;
+    background-color: #E6F7F1;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+.second-row{
+    border: 1px dashed #ccc;
+    margin: 20px 10px;
+    width: 95%;
+    border-radius: 10px;
+    
+}
+.pack{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    padding-top: 15px;
+}
+.pack i{
+    color: red;
+    background-color:#FEF2F2;
+    width: 22px;
+    height: 22px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 4px;
+
+}
+.order-item{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+.order-quantity{
+    font-weight: 400;
+    background-color: #F7F9FA;
+    width: 15%;
+    height: 24px;
+    border-radius: 20px;
+    font-weight: 450;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+}
+.Takeaway p{
+    font-size: 13px;
+    padding-top: 10px;
+
+}
+.buttona{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 12px;
+    padding-top: 10px;
+}
+.button-a{
+    font-size: 13px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+.button-b{
+    border-radius: 5px;
+    font-size: 12px;
+    border: 1px dashed #ccc;
+    background-color: white;
+}
+.third-row{
+    border-top: 1px solid #ccc;
+    margin-left: 11px;
+    width: 95%;
+    border-bottom: 1px dashed #ccc;
+}
+.payment-method{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13.5px;
+    font-weight: 500;
+    padding-top: 5px;
+}
+.payment-method a{
+    text-decoration: none;
+    color: #31B989;
+}
+.notify{
+    display: flex;
+    font-size: 10px;
+    align-items: center;
+    margin-left: 20px;
+    gap: 10px;
+    padding-top: 10px;
+    margin-top: 15px;
+    background-color: #E6F7F1;
+    width: 90%;
+    border-radius: 5px;
+    border-bottom: 1px solid #ccc;
+}
+.notify i{
+    font-size: 15px;
+    color: #10a370;
+    padding-bottom: 12px;
+    font-weight: 800;
+}
+#notify-h{
+    font-size: 15px;
+}
+#notify-p{
+    font-size: 12px;
+    font-weight: 400;
+}
+.fourth-row{
+    margin-top: 16px;
+    width: 90%;
+    border-top: 1px solid #ccc  ;
+    padding-top: 30px;
+}
+.sub-total{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+}
+.total{ 
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+#place{
+    width: 90%;
+}
+#place button{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #0C513F;
+    color: white;
+}
+#clear{
+    width: 90%;
+}
+#clear button{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #FDEFEB;
+    color: #EE6745;
+}
+.save{
+    justify-content: center;
+    gap: 8px; 
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+.save i{
+    padding-bottom: 12px;
+    color:#31B989;
+}
+.save a{
+    text-decoration: none;
+    color: #31B989;
+    padding-top: 10px;
+}
+footer{
+    border-top: 1px solid #f1ecec;
+    margin-top: 80px;
+    padding-top: 40px;
+}
+@media(min-width: 1200px){
+    footer{
+        border-top: 1px solid #f1ecec;
+        margin-top: 30px;
+        padding-top: 50px;
+        padding-left: 135px;
+    }
+}
+#locations{
+        font-size: 16px;
+        font-weight: 500;
+}
+.locations ul{
+    list-style-type: none;
+}
+.locations a{
+    text-decoration: none;
+    color: black;
+    padding-bottom: 30px;
+}
