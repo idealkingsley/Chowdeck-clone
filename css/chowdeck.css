@@ -140,12 +140,19 @@ main {
     border-radius: 10px;
     background-color: #E6F7F1;
 }
+@media (min-width: 1200px){
+    .buttons{
+        border: 1px solid green;
+        border-radius: 10px;
+        background-color: #E6F7F1;
+    }
+}
 .opening-time{
     font-weight: 450;
 }
 @media (min-width: 1200px){
     .order{
-        padding-left:508.2px;
+        padding-left:493.2px;
         color: green;
     }
 }
@@ -449,6 +456,45 @@ main {
     color: #31B989;
     padding-top: 10px;
 }
+.fixed-div{
+    background-color: #0C513F;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    border-radius: 8px;
+    padding-top: 18px;
+    padding-bottom: 05px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 13px;
+    position: fixed;
+    bottom: 70px;
+    min-width: 93%;
+    margin-left: 10px;
+    cursor: pointer;
+
+
+}
+.fixed-div a{
+    text-decoration: none;
+    color: white;
+}
+#chat-icon{
+    font-size: 25px;
+    color: white;
+}
+.chat-icon{
+    background-color: #0C513F;
+    width: 9%;
+    position: fixed;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: flex;
+    justify-content: center;
+    bottom: 19px;
+    right: 10px;
+    border-radius: 50%;
+}
 footer{
     border-top: 1px solid #f1ecec;
     margin-top: 80px;
@@ -457,20 +503,51 @@ footer{
 @media(min-width: 1200px){
     footer{
         border-top: 1px solid #f1ecec;
-        margin-top: 30px;
-        padding-top: 50px;
         padding-left: 135px;
     }
 }
 #locations{
         font-size: 16px;
         font-weight: 500;
+        padding-bottom: 10px;
 }
 .locations ul{
     list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    font-size: 17px;
+    font-weight: 350;
 }
 .locations a{
     text-decoration: none;
     color: black;
-    padding-bottom: 30px;
 }
+.locations li{   
+    margin-bottom: 15px;
+}
+ .locations li :hover{
+    text-decoration: underline;
+ }
+ .locations1 ul{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    font-size: 17px;
+    font-weight: 350;
+ }
+ .locations1 li{
+    margin-bottom:10px;
+ }
+ .locations1 a{
+    text-decoration: none;
+    color: black;
+ }
+ #location{
+    font-size: 16px;
+    font-weight: 500;
+ }
+ .locations1 li :hover{
+    text-decoration: underline;
+ }
+
+
